@@ -1,0 +1,219 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header-row {
+    display: flex;
+}
+
+.logo-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 10%;
+    background: linear-gradient(135deg, #3d3d63, #3d3d63 10%, #af63b8 96%, #af63b8);
+    padding: 10px;
+}
+
+.small-menu {
+    display: none;
+}
+
+.menu {
+    flex-basis: 90%;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    justify-content: end;
+    padding: 0px 10px 0px 10px;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: #3d3d63;
+    background-image: url(https://spigotdesign.com/wp-content/themes/spigot/dist/svg/spigot-icon-mini.svg);
+    background-position: 50%;
+    background-size: 36px;
+    border-bottom: 4px solid #af63b8;
+
+}
+
+.content {
+    display: flex;
+    /* height: 600px; */
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-1 {
+    display: flex;
+    flex-basis: 35%;
+    padding: 10px;
+    font-size: 25px;
+    background-color: gray;
+}
+
+.icons {
+    display: flex;
+    flex-basis: 65%;
+    justify-content: center;
+    height: 600px;
+
+}
+
+.item-2,
+.item-3,
+.item-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 35%;
+    border-left: 3px solid gray;
+    border-bottom: 3px solid gray;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-1 {
+    display: flex;
+    flex-basis: 35%;
+    padding: 10px;
+}
+
+.text-2 {
+    display: flex;
+    flex-basis: 65%;
+    padding: 10px;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.image {
+    display: flex;
+    flex-basis: 33%;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    background-color: #3d3d63;
+    border: .09375em solid #eeeef3;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-basis: 33%;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    background-color: #af63b8;
+    border: .09375em solid #eeeef3;
+}
+
+@media screen and (max-width: 900px) {
+    .menu {
+        display: none;
+    }
+
+    .small-menu {
+        display: flex;
+        flex-basis: 90%;
+        justify-content: end;
+    }
+
+    .content {
+        flex-direction: column;
+        height: 1000px;
+    }
+
+    .item-1 {
+        flex-basis: 100%;
+    }
+
+    .icons {
+        flex-basis: 100%;
+    }
+
+    .image {
+        flex-basis: 49%;
+    }
+
+    .card {
+        flex-basis: 49%;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .content {
+        flex-direction: column;
+        height: 2000px;
+    }
+
+    .item {
+        flex-basis: 25%;
+    }
+
+    .icons {
+        flex-direction: column;
+        flex-basis: 75%;
+    }
+
+    .item-2,
+    .item-3,
+    .item-4 {
+        flex-basis: 33.66%;
+    }
+
+    .text {
+        margin-top: 90px;
+        flex-direction: column;
+    }
+
+    .text-1,
+    .text-2 {
+        flex-basis: 50%;
+    }
+
+    .images {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 1800px;
+    }
+
+    .image {
+        flex-basis: 16.66%;
+    }
+
+    .cards {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 900px;
+    }
+
+    .card {
+        flex-basis: 100%;
+
+    }
+}

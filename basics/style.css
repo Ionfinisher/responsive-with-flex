@@ -1,0 +1,23 @@
+.container {
+    border: 8px solid black;
+    border-radius: 10px;
+    height: 500px;
+    display: flex;
+    /* justify-content: space-around; */
+    /* align-items: space-between; */
+    /* flex-wrap: wrap;
+    align-content: space-between; */
+    gap: 10px;
+
+
+}
+
+.item {
+    border: 2px solid red;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.item-1 {
+    order: 2;
+}
