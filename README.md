@@ -24,7 +24,7 @@ Le projet comprend les dosssiers et fichiers suivants :
 
 ## Oozons
 
-Ne ratez pas d'autres opportunités d'apprendre et de découvrir dans nos lives coding en rejoignant la communauté Oozons sur les réseaux ici : \
+Ne ratez pas d'autres opportunités d'apprendre et de découvrir dans nos lives coding en rejoignant la communauté Oozons sur les réseaux ici :
 
 Telegram: https://lnkd.in/dSzvvVy2  
 WhatsApp: https://lnkd.in/d2czW7z2  
