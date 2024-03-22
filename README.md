@@ -8,7 +8,7 @@ Le projet comprend les dosssiers et fichiers suivants :
 
 - `basics/` : dossier contenant les fichiers utilisés pour comprendre les bases de flexbox et ses propriétés.
 - `mini-project/` : dossier contenant les fichiers relatifs au mini-projet réalisé pendant le live.
-- `spigot/` : dossier contenant les fichiers relatifs au projet de reproduction du design responsive du site https://spigot.com
+- `spigot/` : dossier contenant les fichiers relatifs au projet de reproduction du design responsive du site https://spigotdesign.com
 - `index.html` : La structure HTML de base des sites.
 - `style.css` : Les styles CSS, y compris l'utilisation de Flexbox pour la mise en page.
 
